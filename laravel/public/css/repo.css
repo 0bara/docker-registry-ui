@@ -1,0 +1,43 @@
+.TagGroup {
+	height: 1px;
+}
+tr.opt {
+	display:none;
+	background-color:#EEEEEE;
+}
+table tr.tag {
+  background-color:#e3efbd;
+}
+table tr.tag td:first-child {
+  width: 140px;
+}
+button.Up {
+	float: right;
+	transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
+}
+button.Down {
+	float: right;
+}
+tr.tEdit,tr.dEdit {
+	display:none;
+}
+
+table {
+	min-width: 80%;
+}
+table tr.title {
+	background-color:#e2efcc;
+}
+table tr.descript {
+	background-color:#f7f9e8;
+}
+th {
+	background-color:#569b20;
+}
+
+input , textarea {
+	width: 98%;
+}
+
