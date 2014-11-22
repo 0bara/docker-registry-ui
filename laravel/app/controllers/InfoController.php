@@ -71,6 +71,6 @@ class InfoController extends BaseController {
 			Log::info("insert return: ".print_r($r,true));
 		}
 
-		return Response::json(array("OK"));
+		return Response::json(array("updated"));
 	}
 }
